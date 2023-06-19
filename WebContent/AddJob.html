@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ADD JOB</title>
+</head>
+<body>
+<style>
+body{
+background-position:center;
+            background-image: url('2053097.png');  
+             background-size: 100%;
+        } label{
+      	display:inline-block;
+      	width:160px;
+      	text-align:right;
+      }
+</style>
+<center>
+<br><br><br><br><br><br>
+<h1 style="background-color: black;color: white;">JOB REGISTRATION</h1><br>
+<h3> 
+<form action="AddJob" method="post">
+
+<div>
+<label for="title">JOB TITLE : </label>
+  <input type="text" id="title" name="title" required><br><br>
+  
+<label for="description">DESCRIPTION : </label>
+  <input type="text" id="description" name="description" required><br><br>
+  
+<label for="salary">SALARY RANGE : </label>
+  <input type="text" id="salary" name="salary" required><br><br>
+ 
+<label><font size="4" color="black"><b>QUALITY: </b></font></label>
+<br>
+<input type="checkbox" id="o" name="o" value="Openness">
+
+<label for= " vehicle1"><font color="black">Openness</font> </label><br>
+<input type="checkbox" id="c" name="c" value="Conscientiousness">
+<label for="vehicle2"><font color="black"> Conscientiousness</font></label><br>
+<input type="checkbox" id="e" name="black" value="Extraversion">
+<label for="vehicle3"><font color="black"> Extraversion</font></label><br>
+<input type="checkbox" id="a" name="a" value="Agreeableness">
+<label for="vehicle3"><font color="black"> Agreeableness</font></label><br>
+<input type="checkbox" id="n" name="n" value="Neuroticism">
+<label for="vehicle3"><font color="black"> Neuroticism</font></label><br><br>
+  
+<label for="experience">EXPERIENCE : </label>
+  <input type="text" id="experience" name="experience" required><br><br>
+  
+
+ </div>
+  <button style="height:25px;font-size:13pt;width:200px">ADD JOB IN LIST</button>
+</center>
+</body>
+</html>
